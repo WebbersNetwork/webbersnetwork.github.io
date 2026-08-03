@@ -1,112 +1,158 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width'>
-    <title>Privacy Policy</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Emory App | Webbers Network Plt.</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        paper: '#F9F9F7',
+                        ink: '#111111',
+                        editorial: '#CC0000',
+                        muted: '#E5E5E0',
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'Times New Roman', 'serif'],
+                        body: ['"Lora"', 'Georgia', 'serif'],
+                        sans: ['"Inter"', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+
     <style>
+        *, *::before, *::after {
+            border-radius: 0px !important;
+        }
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            padding: 1em;
+            background-color: #F9F9F7;
+            color: #111111;
+            font-family: 'Lora', Georgia, serif;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23111111' fill-opacity='0.04' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+        }
+        .prose h2, .prose h3 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: #111111;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .prose ul {
+            list-style-type: square;
+            padding-left: 1.25rem;
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .prose a {
+            color: #111111;
+            text-decoration: underline;
+            text-decoration-color: #CC0000;
+            text-underline-offset: 3px;
+        }
+        .prose a:hover {
+            color: #CC0000;
         }
     </style>
 </head>
+<body class="min-h-screen py-10 px-4">
+    <div class="max-w-screen-md mx-auto border-2 border-ink bg-paper p-8 sm:p-12 shadow-[6px_6px_0px_0px_#111111]">
+        
+        <!-- Header Nav Back -->
+        <div class="border-b-2 border-ink pb-4 mb-6 flex justify-between items-center font-mono text-xs uppercase tracking-widest">
+            <a href="../index.html" class="font-bold hover:text-editorial transition-colors">← Back to Webbers Network</a>
+            <span class="text-neutral-500">OFFICIAL LEGAL DISPATCH</span>
+        </div>
 
-<body>
-    <strong>Privacy Policy</strong>
-    <p>This privacy policy applies to the Emory app (hereby referred to as "Application") for mobile devices that was
-        created by Webbers Network Plt. (hereby referred to as "Service Provider") as a Free service. This service is
-        intended for use "AS IS".</p><br><strong>Information Collection and Use</strong>
-    <p>The Application collects information when you download and use it. This information may include information such
-        as</p>
-    <ul>
-        <li>Your device's Internet Protocol address (e.g. IP address)</li>
-        <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-        </li>
-        <li>The time spent on the Application</li>
-        <li>The operating system you use on your mobile device</li>
-    </ul>
-    <p></p><br>
-    <p>The Application does not gather precise information about the location of your mobile device.</p>
-    <div style="display: none;">
-        <p>The Application collects your device's location, which helps the Service Provider determine your approximate
-            geographical location and make use of in below ways:</p>
-        <ul>
-            <li>Geolocation Services: The Service Provider utilizes location data to provide features such as
-                personalized content, relevant recommendations, and location-based services.</li>
-            <li>Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to
-                analyze user behavior, identify trends, and improve the overall performance and functionality of the
-                Application.</li>
-            <li>Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to
-                external services. These services assist them in enhancing the Application and optimizing their
-                offerings.</li>
-        </ul>
-    </div><br>
-    <p>The Service Provider may use the information you provided to contact you from time to time to provide you with
-        important information, required notices and marketing promotions.</p><br>
-    <p>For a better experience, while using the Application, the Service Provider may require you to provide us with
-        certain personally identifiable information, including but not limited to device information. The information
-        that the Service Provider request will be retained by them and used as described in this privacy policy.</p>
-    <br><strong>Third Party Access</strong>
-    <p>Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in
-        improving the Application and their service. The Service Provider may share your information with third parties
-        in the ways that are described in this privacy statement.</p>
-    <div><br>
-        <p>Please note that the Application utilizes third-party services that have their own Privacy Policy about
-            handling data. Below are the links to the Privacy Policy of the third-party service providers used by the
-            Application:</p>
-        <ul>
-            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play
-                    Services</a></li><!---->
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google
-                    Analytics for Firebase</a></li>
-            <li><a href="https://firebase.google.com/support/privacy/" target="_blank"
-                    rel="noopener noreferrer">Firebase Crashlytics</a></li>
-            <!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
-        </ul>
-    </div><br>
-    <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
-    <ul>
-        <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
-        <li>when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or
-            the safety of others, investigate fraud, or respond to a government request;</li>
-        <li>with their trusted services providers who work on their behalf, do not have an independent use of the
-            information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
-        </li>
-    </ul>
-    <p></p><br><strong>Opt-Out Rights</strong>
-    <p>You can stop all collection of information by the Application easily by uninstalling it. You may use the standard
-        uninstall processes as may be available as part of your mobile device or via the mobile application marketplace
-        or network.</p><br><strong>Data Retention Policy</strong>
-    <p>The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable
-        time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application,
-        please contact them at william.tan@webbersnetwork.com and they will respond in a reasonable time.</p>
-    <br><strong>Children</strong>
-    <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the
-        age of 13.</p>
-    <div><br>
-        <p>The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect
-            personally identifiable information from children under 13 years of age. In the case the Service Provider
-            discover that a child under 13 has provided personal information, the Service Provider will immediately
-            delete this from their servers. If you are a parent or guardian and you are aware that your child has
-            provided us with personal information, please contact the Service Provider (william.tan@webbersnetwork.com)
-            so that they will be able to take the necessary actions.</p>
-    </div><!----><br><strong>Security</strong>
-    <p>The Service Provider is concerned about safeguarding the confidentiality of your information. The Service
-        Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider
-        processes and maintains.</p><br><strong>Changes</strong>
-    <p>This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any
-        changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this
-        Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.</p><br>
-    <p>This privacy policy is effective as of 2024-04-29</p><br><strong>Your Consent</strong>
-    <p>By using the Application, you are consenting to the processing of your information as set forth in this Privacy
-        Policy now and as amended by us.</p><br><strong>Contact Us</strong>
-    <p>If you have any questions regarding privacy while using the Application, or have questions about the practices,
-        please contact the Service Provider via email at support@webbersnetwork.com.</p>
-    <hr>
-    <p>This privacy policy page was generated by <a href="https://app-privacy-policy-generator.nisrulz.com/"
-            target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a></p>
+        <h1 class="font-serif font-black text-4xl sm:text-5xl text-ink uppercase mb-2">Privacy Policy</h1>
+        <div class="font-mono text-xs text-neutral-500 uppercase mb-8 pb-4 border-b border-ink">
+            Emory Mobile Application • Webbers Network Plt. • Effective Date: April 29, 2024
+        </div>
+
+        <div class="prose font-body text-sm text-ink leading-relaxed space-y-4">
+            <p class="text-base font-semibold">
+                This privacy policy applies to the Emory app (hereby referred to as "Application") for mobile devices created by Webbers Network Plt. (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+            </p>
+
+            <h2>Information Collection and Use</h2>
+            <p>
+                The Application collects information when you download and use it. This information may include details such as:
+            </p>
+            <ul>
+                <li>Your device's Internet Protocol address (e.g. IP address)</li>
+                <li>The pages of the Application that you visit, the time and date of your visit, and time spent on those pages</li>
+                <li>The time spent on the Application</li>
+                <li>The operating system you use on your mobile device</li>
+            </ul>
+            <p>
+                The Application does not gather precise location information about your mobile device.
+            </p>
+            <p>
+                The Service Provider may use the information provided to contact you from time to time to convey important notices and required updates.
+            </p>
+
+            <h2>Third Party Access</h2>
+            <p>
+                Only aggregated, anonymized data is periodically transmitted to external services to aid in improving the Application. Below are the third-party service providers utilized by the Application:
+            </p>
+            <ul>
+                <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+                <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+                <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+            </ul>
+
+            <h2>Disclosure Rights</h2>
+            <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
+            <ul>
+                <li>As required by law, such as to comply with a subpoena or similar legal process;</li>
+                <li>When required in good faith to protect safety, rights, or investigate fraud;</li>
+                <li>With trusted service providers who adhere to the rules set forth in this privacy statement.</li>
+            </ul>
+
+            <h2>Opt-Out Rights</h2>
+            <p>
+                You can stop all collection of information by the Application easily by uninstalling it using standard marketplace or device application removal workflows.
+            </p>
+
+            <h2>Data Retention & Deletion</h2>
+            <p>
+                The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. To request deletion of data provided via the Application, please contact <a href="mailto:william.tan@webbersnetwork.com">william.tan@webbersnetwork.com</a>.
+            </p>
+
+            <h2>Children’s Privacy</h2>
+            <p>
+                The Application does not address or knowingly solicit data from anyone under 13 years of age. If a child under 13 provides personal information, it will be immediately removed from servers.
+            </p>
+
+            <h2>Security</h2>
+            <p>
+                The Service Provider provides physical, electronic, and procedural safeguards to protect the confidentiality of your information.
+            </p>
+
+            <h2>Contact Us</h2>
+            <p>
+                If you have any questions regarding privacy while using Emory, please contact the Service Provider via email at <a href="mailto:support@webbersnetwork.com">support@webbersnetwork.com</a>.
+            </p>
+        </div>
+
+        <!-- Footer Colophon -->
+        <div class="border-t-2 border-ink mt-10 pt-4 font-mono text-[11px] text-neutral-500 uppercase flex justify-between items-center">
+            <span>© 2026 Webbers Network Plt.</span>
+            <a href="../index.html" class="hover:text-editorial">WebbersNetwork.com</a>
+        </div>
+
+    </div>
 </body>
-
 </html>
