@@ -110,6 +110,15 @@
             animation-play-state: paused;
         }
 
+        /* Finsighto Official Logo Styling (135deg gradient, 6px radius, padding 4px) */
+        .finsighto-logo-icon {
+            background: linear-gradient(135deg, #f43f5e 0%, #8b5cf6 100%);
+            border-radius: 6px !important;
+            object-fit: contain;
+            padding: 4px;
+            box-sizing: border-box;
+        }
+
         /* Justified Editorial Columns */
         .editorial-text {
             text-align: justify;
@@ -288,7 +297,10 @@
                     <!-- Quick Access Box -->
                     <div class="border border-ink bg-ink text-paper p-6">
                         <div class="font-mono text-xs uppercase tracking-widest text-editorial font-bold mb-2">FLAGSHIP APP</div>
-                        <h3 class="font-serif font-bold text-xl mb-2">Finsighto</h3>
+                        <h3 class="font-serif font-bold text-xl mb-2 flex items-center gap-2">
+                            <img src="images/finsighto_logo.png" alt="Finsighto Logo" class="finsighto-logo-icon w-6 h-6 inline-block">
+                            <span>Finsighto</span>
+                        </h3>
                         <p class="font-body text-xs text-neutral-200 leading-relaxed mb-4">
                             Our flagship smart expense tracking application for personal finance.
                         </p>
@@ -324,7 +336,7 @@
                     </div>
 
                     <h3 class="font-serif font-black text-3xl sm:text-5xl text-ink mb-3 leading-tight flex items-center gap-3">
-                        <img src="images/finsighto_logo.png" alt="Finsighto Logo" class="w-10 h-10 object-contain inline-block">
+                        <img src="images/finsighto_logo.png" alt="Finsighto Logo" class="finsighto-logo-icon w-10 h-10 inline-block">
                         <a href="https://finsighto.com" target="_blank" rel="noopener noreferrer" class="hover:text-editorial transition-colors">
                             Finsighto
                         </a>
@@ -480,7 +492,7 @@
                     <ul class="space-y-2 uppercase text-neutral-700">
                         <li>
                             <a href="https://finsighto.com" target="_blank" rel="noopener noreferrer" class="hover:text-ink inline-flex items-center gap-2">
-                                <img src="images/finsighto_logo.png" alt="Finsighto Logo" class="w-4 h-4 object-contain inline-block">
+                                <img src="images/finsighto_logo.png" alt="Finsighto Logo" class="finsighto-logo-icon w-5 h-5 inline-block">
                                 <span>Finsighto Official Site ↗</span>
                             </a>
                         </li>
